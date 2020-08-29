@@ -1,0 +1,13 @@
+{
+    "name": "ellgreen/pace-template",
+    "description": "Template Pace Application",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ellis Green",
+            "email": "devellisper@outlook.com"
+        }
+    ],
+    "require": {}
+}
