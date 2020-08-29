@@ -1,4 +1,8 @@
-#!/usr/bin/php
+#!/usr/bin/env php
 <?php
 
-echo "Commands go here\n";
+require __DIR__.'/vendor/autoload.php';
+
+$application = require __DIR__.'/bootstrap/app.php';
+
+$application->run();

@@ -1,3 +1,4 @@
 /vendor/
 /.idea/
-
+/public/
+/public_prod/
