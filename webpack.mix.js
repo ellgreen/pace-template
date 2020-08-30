@@ -1,8 +1,11 @@
-let mix = require('laravel-mix');
+let mix = require('laravel-mix')
+require('laravel-mix-pace')
 
-mix.disableSuccessNotifications();
+mix.setPublicPath('public/')
+    .disableSuccessNotifications()
 
-mix.js('resources/js/app.js', 'public/')
-    .postCss('resources/css/app.css', 'public/', [
+mix.js('resources/js/app.js', '')
+    .postCss('resources/css/app.css', '', [
         require('tailwindcss')
-    ]);
+    ])
+    .pace()

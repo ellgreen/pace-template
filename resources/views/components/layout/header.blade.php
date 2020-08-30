@@ -1,6 +1,6 @@
 <header class="mb-6 bg-gradient-to-r from-purple-700 to-pink-700 text-white">
     <div class="container mx-auto flex justify-between items-center h-16">
-        <h1 class="text-2xl font-semibold">
+        <h1 class="text-2xl font-semibold tracking-wide">
             Pace
         </h1>
 
