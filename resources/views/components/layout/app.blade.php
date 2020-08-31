@@ -14,7 +14,7 @@
     <x-layout.header />
 
     <main class="flex flex-col items-center">
-        <div class="w-full max-w-2xl">
+        <div class="w-full max-w-xl">
             {{ $slot }}
         </div>
     </main>
