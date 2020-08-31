@@ -1,5 +1,5 @@
 /vendor/
 /.idea/
 /node_modules/
-/public/
-/public_prod/
+/build/
+/build_prod/

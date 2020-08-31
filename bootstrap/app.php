@@ -4,9 +4,7 @@ use EllGreen\Pace\Console\Application;
 use EllGreen\Pace\Pace;
 use Illuminate\Container\Container;
 
-$container = new Container();
-
-Container::setInstance($container);
+$container = Container::setInstance(new Container);
 $container->instance(Container::class, $container);
 
 Pace::register($container, realpath(__DIR__.'/../'));
