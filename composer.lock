@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c7b543965b075e77c2bbc147e4a70d2e",
+    "content-hash": "2dbcf26a72c1aaa234c7ac93bfaed3da",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -99,11 +99,17 @@
         },
         {
             "name": "ellgreen/pace",
-            "version": "dev-development",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ellgreen/pace.git",
+                "reference": "1427bf89f3d9921a4f3f16c040d464f1801cf937"
+            },
             "dist": {
-                "type": "path",
-                "url": "../pace",
-                "reference": "97bd622f31bf4e398b512d408ae84839a5f11ed2"
+                "type": "zip",
+                "url": "https://api.github.com/repos/ellgreen/pace/zipball/1427bf89f3d9921a4f3f16c040d464f1801cf937",
+                "reference": "1427bf89f3d9921a4f3f16c040d464f1801cf937",
+                "shasum": ""
             },
             "require": {
                 "illuminate/support": "^7.26",
@@ -124,11 +130,7 @@
                     "EllGreen\\Pace\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "EllGreen\\Pace\\Tests\\": "tests/"
-                }
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -139,9 +141,7 @@
                 }
             ],
             "description": "Simple static site generator using Laravel blade",
-            "transport-options": {
-                "relative": true
-            }
+            "time": "2020-08-31T19:39:41+00:00"
         },
         {
             "name": "illuminate/container",
@@ -1720,9 +1720,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "ellgreen/pace": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
