@@ -9,4 +9,4 @@ Using, [Laravel Blade](https://laravel.com/docs/7.x/blade),
 ---
 
 **This is the Pace template repository, to view documentation,
-please the [main repository](https://github.com/ellgreen/pace)**
+please visit the [main repository](https://github.com/ellgreen/pace)**
