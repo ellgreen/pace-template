@@ -19,5 +19,8 @@
             "type": "path",
             "url": "../pace"
         }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
     }
 }

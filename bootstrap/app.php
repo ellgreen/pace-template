@@ -1,7 +1,7 @@
 <?php
 
-use EllGreen\Pace\Builder;
 use EllGreen\Pace\Console\Application;
+use EllGreen\Pace\Pace;
 use Illuminate\Container\Container;
 
 $container = new Container();
@@ -9,13 +9,7 @@ $container = new Container();
 Container::setInstance($container);
 $container->instance(Container::class, $container);
 
-$container->bind(Builder::class, function () {
-    return new Builder(
-        Container::getInstance(),
-        realpath(__DIR__.'/../resources/views'),
-        __DIR__.'/cache/views'
-    );
-});
+Pace::register($container, realpath(__DIR__.'/../'));
 
 $application = $container->makeWith(Application::class, ['Pace']);
 
