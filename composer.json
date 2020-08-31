@@ -13,13 +13,5 @@
         "php": "^7.4",
         "illuminate/container": "^7.26",
         "ellgreen/pace": "dev-development"
-    },
-    "repositories": {
-        "pace": {
-            "type": "path",
-            "url": "../pace"
-        }
-    },
-    "require-dev": {
     }
 }
