@@ -1,11 +1,13 @@
 module.exports = {
-  purge: [],
+  purge: [
+      'resources/views/**/*.blade.php',
+  ],
   theme: {
     extend: {},
   },
   variants: {},
   plugins: [],
   future: {
-    removeDeprecatedGapUtilities: true
-  }
+    removeDeprecatedGapUtilities: true,
+  },
 }

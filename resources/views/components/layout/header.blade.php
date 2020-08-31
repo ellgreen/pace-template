@@ -5,8 +5,11 @@
         </h1>
 
         <nav class="flex space-x-4">
-            <a class="hover:text-pink-100" href="/">Homepage</a>
-            <a class="hover:text-pink-100" href="/about">About</a>
+            @foreach(['Home' => '/', 'About' => '/about'] as $title => $href)
+                <a class="py-1 px-4 rounded hover:bg-pink-600 transition-colors duration-100" href="{{ $href }}">
+                    {{ $title }}
+                </a>
+            @endforeach
         </nav>
     </div>
 </header>
