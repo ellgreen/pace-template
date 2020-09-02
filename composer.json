@@ -9,6 +9,12 @@
             "email": "devellisper@outlook.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../pace"
+        }
+    ],
     "require": {
         "php": "^7.4",
         "illuminate/container": "^7.26",

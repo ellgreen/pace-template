@@ -13,3 +13,7 @@ mix.js('resources/js/app.js', '')
     .pace({
         buildPath
     })
+
+if (mix.inProduction()) {
+    mix.version()
+}
