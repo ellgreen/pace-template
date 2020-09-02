@@ -10,6 +10,7 @@ mix.js('resources/js/app.js', '')
     .postCss('resources/css/app.css', '', [
         require('tailwindcss')
     ])
+    .copyDirectory('resources/assets', buildPath)
     .pace({
         buildPath
     })
