@@ -8,7 +8,8 @@ mix.setPublicPath(buildPath)
 
 mix.js('resources/js/app.js', '')
     .postCss('resources/css/app.css', '', [
-        require('tailwindcss')
+        require('tailwindcss'),
+        require('autoprefixer')
     ])
     .copyDirectory('resources/assets', buildPath)
     .pace({
