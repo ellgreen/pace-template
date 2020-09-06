@@ -7,8 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Pace</title>
 
-    <link rel="stylesheet" href="/app.css">
-    <script src="/app.js" defer></script>
+    <link rel="stylesheet" href="{{ $mix('/app.css') }}">
+    <script src="{{ $mix('/app.js') }}" defer></script>
 </head>
 <body>
     <x-layout.header />

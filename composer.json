@@ -12,6 +12,6 @@
     "require": {
         "php": "^7.4",
         "illuminate/container": "^7.26",
-        "ellgreen/pace": "^0.1.0"
+        "ellgreen/pace": "^0.2"
     }
 }

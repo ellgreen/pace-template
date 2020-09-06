@@ -5,7 +5,7 @@
         </h1>
 
         <nav class="flex space-x-4">
-            @foreach(['Home' => '/', 'About' => '/about'] as $title => $href)
+            @foreach(['Home' => '/', 'About' => '/about', 'Posts' => '/posts'] as $title => $href)
                 <a class="py-1 px-4 rounded hover:bg-pink-600 transition-colors duration-100" href="{{ $href }}">
                     {{ $title }}
                 </a>
