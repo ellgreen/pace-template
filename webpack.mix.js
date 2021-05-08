@@ -4,16 +4,19 @@ require('laravel-mix-pace')
 let buildPath = mix.inProduction() ? 'build_prod' : 'build'
 
 mix.setPublicPath(buildPath)
-    .disableSuccessNotifications()
+    .disableNotifications()
 
 mix.js('resources/js/app.js', '')
     .postCss('resources/css/app.css', '', [
         require('tailwindcss'),
-        require('autoprefixer')
+        require('autoprefixer'),
     ])
     .copyDirectory('resources/assets', buildPath)
+    .browserSync({
+        server: buildPath,
+    })
     .pace({
-        buildPath
+        buildPath,
     })
 
 if (mix.inProduction()) {

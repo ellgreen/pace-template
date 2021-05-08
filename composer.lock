@@ -107,12 +107,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ellgreen/pace.git",
-                "reference": "e884e7254cf113026e40f334b207db1fcc23fcf2"
+                "reference": "6584f0b4f0e3ede3ae202f3eadba49453e9f6811"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ellgreen/pace/zipball/e884e7254cf113026e40f334b207db1fcc23fcf2",
-                "reference": "e884e7254cf113026e40f334b207db1fcc23fcf2",
+                "url": "https://api.github.com/repos/ellgreen/pace/zipball/6584f0b4f0e3ede3ae202f3eadba49453e9f6811",
+                "reference": "6584f0b4f0e3ede3ae202f3eadba49453e9f6811",
                 "shasum": ""
             },
             "require": {
@@ -152,7 +152,7 @@
                 "issues": "https://github.com/ellgreen/pace/issues",
                 "source": "https://github.com/ellgreen/pace/tree/php-8"
             },
-            "time": "2021-05-08T15:43:09+00:00"
+            "time": "2021-05-08T17:30:48+00:00"
         },
         {
             "name": "erusev/parsedown",
@@ -745,16 +745,16 @@
         },
         {
             "name": "league/commonmark",
-            "version": "1.6.0",
+            "version": "1.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/commonmark.git",
-                "reference": "19a9673b833cc37770439097b381d86cd125bfe8"
+                "reference": "2651c497f005de305c7ba3f232cbd87b8c00ee8c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/19a9673b833cc37770439097b381d86cd125bfe8",
-                "reference": "19a9673b833cc37770439097b381d86cd125bfe8",
+                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/2651c497f005de305c7ba3f232cbd87b8c00ee8c",
+                "reference": "2651c497f005de305c7ba3f232cbd87b8c00ee8c",
                 "shasum": ""
             },
             "require": {
@@ -842,7 +842,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-05-01T19:00:49+00:00"
+            "time": "2021-05-08T16:08:00+00:00"
         },
         {
             "name": "mnapoli/front-yaml",
