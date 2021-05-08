@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": "^8.0",
-        "illuminate/container": "^8.0",
-        "ellgreen/pace": "dev-php-8"
+        "ellgreen/pace": "^1.0",
+        "illuminate/container": "^8.0"
     }
 }

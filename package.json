@@ -11,12 +11,10 @@
   },
   "dependencies": {
     "alpinejs": "^2.8.2",
-    "autoprefixer": "^10.2.5",
     "cross-env": "^7.0.2",
     "laravel-mix": "^6.0.0",
-    "laravel-mix-pace": "^0.3.4",
-    "tailwindcss": "^2.1.2",
-    "vue-template-compiler": "^2.6.12"
+    "laravel-mix-pace": "^1.0.0",
+    "tailwindcss": "^2.1.2"
   },
   "devDependencies": {
     "browser-sync": "^2.26.14",

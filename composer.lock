@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bcffa3624c2b2d37c0f7391c6779b68c",
+    "content-hash": "dc8923bfd3d31e57ed9bdf66b7ffd50e",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -103,16 +103,16 @@
         },
         {
             "name": "ellgreen/pace",
-            "version": "dev-php-8",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ellgreen/pace.git",
-                "reference": "6584f0b4f0e3ede3ae202f3eadba49453e9f6811"
+                "reference": "96bcad743f3cbda00b4e5832989c174394263468"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ellgreen/pace/zipball/6584f0b4f0e3ede3ae202f3eadba49453e9f6811",
-                "reference": "6584f0b4f0e3ede3ae202f3eadba49453e9f6811",
+                "url": "https://api.github.com/repos/ellgreen/pace/zipball/96bcad743f3cbda00b4e5832989c174394263468",
+                "reference": "96bcad743f3cbda00b4e5832989c174394263468",
                 "shasum": ""
             },
             "require": {
@@ -150,9 +150,9 @@
             "description": "Simple static site generator using Laravel blade",
             "support": {
                 "issues": "https://github.com/ellgreen/pace/issues",
-                "source": "https://github.com/ellgreen/pace/tree/php-8"
+                "source": "https://github.com/ellgreen/pace/tree/1.0.0"
             },
-            "time": "2021-05-08T17:30:48+00:00"
+            "time": "2021-05-08T17:56:19+00:00"
         },
         {
             "name": "erusev/parsedown",
@@ -2334,9 +2334,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "ellgreen/pace": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
